@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    text-decoration: underline;
+}
+
+main {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(1fr, 1fr));
+    gap: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 35%;
+}
+
+button {
+    background-color: #00a82a;
+    color: white;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 50%;
+}
